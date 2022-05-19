@@ -1,0 +1,9 @@
+server                                    
+ -npm int -y                              
+ - npm install cors express body-parser  nodemon mongoose                                        
+                                         
+
+
+client
+ -- npx create-react-app ./
+   npm install --legacy-peer-deps
