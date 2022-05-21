@@ -5,7 +5,7 @@ import {
   getPosts,
   //   getPost,
   createPost,
-  //   updatePost,
+  updatePost,
   //   likePost,
   //   deletePost,
 } from '../controllers/posts.js';
@@ -13,7 +13,7 @@ import {
 router.get('/', getPosts);
 router.post('/', createPost);
 // router.get('/:id', getPost);
-// router.patch('/:id', updatePost);
+router.patch('/:id', updatePost);
 // router.delete('/:id', deletePost);
 // router.patch('/:id/likePost', likePost);
 
